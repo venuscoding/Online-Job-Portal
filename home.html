@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+    
+
+
+
+
+
+    <header class="header">
+        <section class="flex">
+            <div id="menu.btn" class="fas fa-bars-staggered"></div>
+            <a href="home.html" class="logo"><i  class="fas fa-briefcase"></i>
+            JobHunt.</a>
+
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="jobs.html">all jobs</a>
+                <a href="contact.html">contact us</a>
+                <a href="login.html">account</a>
+            </nav>
+            <a href="#" class="btn" style="margin-top: 0;">post job</a>
+        </section>
+    </header>
+
+    <div class="home-container">
+        <section class="home">
+            <form action="" method="post">
+                <h3>find your next job</h3>
+                <p>job title<span>*</span></p>
+                <input type="text" name="title" placeholder="keyword,category or company" required maxlength="20" class="input">
+                <p>job location</p>
+                <input type="text" name="location" placeholder="city,state or country"
+                 required maxlength="50" class="input">
+                 <input type="submit" value="search job" name="search" class="btn">
+            </form>
+
+        </section>
+    </div>
+  <section class="category">
+    <h1 class="heading"> job categories</h1>
+    <div class="box-container">
+        <a href="#" class="box">
+            <i class="fas fa-code">
+            </i>
+            <div>
+                <h3> development</h3>
+                <span>2200 jobs </span>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <i class="fas fa-pen">
+            </i>
+            <div>
+                <h3> designer</h3>
+                <span>200 jobs </span>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <i class="fas fa-chalkboard-user">
+            </i>
+            <div>
+                <h3>teacher</h3>
+                <span>2200 jobs </span>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <i class="fas fa-bullhorn">
+            </i>
+            <div>
+                <h3> marketing</h3>
+                <span>2200 jobs </span>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <i class="fas fa-headset">
+            </i>
+            <div>
+                <h3>service</h3>
+                <span>3100 jobs </span>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <i class="fas fa-wrench">
+            </i>
+            <div>
+                <h3>engineer</h3>
+                <span>400 jobs </span>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <i class="fas fa-hand-holding-dollar">
+            </i>
+            <div>
+                <h3>finance</h3>
+                <span>1000 jobs </span>
+            </div>
+        </a>
+        <a href="#" class="box">
+            <i class="fas fa-person-digging">
+            </i>
+            <div>
+                <h3> labour</h3>
+                <span>4000 jobs </span>
+            </div>
+        </a>
+    </div>
+  </section>
+<section class="jobs-container">
+    <h1 class="heading">latest jobs</h1>
+     <div class="box-container">
+       <div class="box">
+          <div class="company">
+            <img src="data:image/png;base64,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", alt="">
+            <div>
+                <h3>Infosys co.</h3>
+                <span> 2 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i>
+         <span>mumbai,India</span></p>
+         <div class="tags">
+            <p><i class="fas fa-indian-rupee-sign"></i><span>10k-25k</span></p>
+            <p><i class="fas fa-briefcase"></i><span>part-time</span></p>
+            <p><i class="fas fa-clock"></i><span>day shift</span></p>
+
+        </div>
+        <div class="flex-btn">
+            <a href="viewjob.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+        </div>
+
+        <div class="company">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ75Q9EvClA_AXpsxkvrXrLRQS6iLAI-Y_MV9FKjZDSEw&s",alt="">
+                <h3>Google co.</h3>
+                <span> 2 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i>
+         <span>mumbai,India</span></p>
+         <div class="tags">
+            <p><i class="fas fa-indian-rupee-sign"></i><span>10k-25k</span></p>
+            <p><i class="fas fa-briefcase"></i><span>part-time</span></p>
+            <p><i class="fas fa-clock"></i><span>day shift</span></p>
+
+        </div>
+        <div class="flex-btn">
+            <a href="viewjob.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+        </div>
+
+        <div class="company">
+            <img src="data:image/png;base64,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" alt="">
+            <div>
+                <h3>Wipro</h3>
+                <span> 2 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i>
+         <span>mumbai,India</span></p>
+         <div class="tags">
+            <p><i class="fas fa-indian-rupee-sign"></i><span>10k-25k</span></p>
+            <p><i class="fas fa-briefcase"></i><span>part-time</span></p>
+            <p><i class="fas fa-clock"></i><span>day shift</span></p>
+
+        </div>
+        <div class="flex-btn">
+            <a href="viewjob.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+        </div>
+
+        <div class="company">
+            <img src="data:image/png;base64,iVBORw0KGgoAA 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" alt="">
+            <div>
+                <h3>Infosys co.</h3>
+                <span> 2 days ago</span>
+            </div>
+          </div>
+          <h3 class="job-title">senior web developer</h3>
+          <p class="location"><i class="fas fa-map-marker-alt"></i>
+         <span>mumbai,India</span></p>
+         <div class="tags">
+            <p><i class="fas fa-indian-rupee-sign"></i><span>10k-25k</span></p>
+            <p><i class="fas fa-briefcase"></i><span>part-time</span></p>
+            <p><i class="fas fa-clock"></i><span>day shift</span></p>
+
+        </div>
+        <div class="flex-btn">
+            <a href="viewjob.html" class="btn">view details</a>
+            <button type="submit" class="far fa-heart" name="save"></button>
+        </div>
+        </div>
+     </div>
+
+</section>
+
+<footer class="footer">
+    <section class="grid">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="home.html"><i class="fas fa-angle-right"></i> home</a>
+            <a href="about.html"><i class="fas fa-angle-right"></i> about</a>
+            <a href="jobs.html"><i class="fas fa-angle-right"></i> all jobs</a>
+            <a href="contact.html"><i class="fas fa-angle-right"></i> contact us</a>
+            <a href="#"><i class="fas fa-angle-right"></i>filter search</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"><i class="fas fa-angle-right"></i> account</a>
+            <a href="login.html"><i class="fas fa-angle-right"></i> login</a>
+            <a href="register.html"><i class="fas fa-angle-right"></i> register</a>
+            <a href="#"><i class="fas fa-angle-right"></i> post job</a>
+            <a href="#"><i class="fas fa-angle-right"></i>dashboard</a>
+        </div>
+        <div class="box">
+         <h3>follow us</h3>
+         <a href="#"><i class="fab fa-facebook-f"></i>facebook</a> 
+         <a href="#"><i class="fab fa-twitter"></i>twitter</a> 
+         <a href="#"><i class="fab fa-instagram"></i>instagram</a> 
+         <a href="#"><i class="fab fa-linkedin"></i>linkedin</a> 
+         <a href="#"><i class="fab fa-youtube"></i>youtube</a> 
+        </div>
+    </section>
+    <div class="credit">&copy; copyright @ 2024 by<span>tavisha</span>| all rights reserved</div>
+</footer>
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
