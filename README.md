@@ -12,3 +12,9 @@ the technologies used are HTML,CSS.
 4)User profile management
 
 5)Responsive design
+## technologies used
+1)HTML5
+
+2)CSS3
+
+3)JavaScript
